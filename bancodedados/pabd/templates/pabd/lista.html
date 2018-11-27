@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>Lista de reservas</h1>
+	{% for reserva in lista_reserva %}
+	Daiane
+		<article>
+			<h2>{{reserva.matricula}}</h2>
+			<h2>{{reserva.data}}</h2>
+			<h2>{{reserva.horaentrada}}</h2>
+		</article>
+	{%endfor%}
+
+</body>
+</html>
